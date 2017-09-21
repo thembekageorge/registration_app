@@ -1,0 +1,26 @@
+<title>Registration Numbers</title>
+<h2>Enter your registration number</h2>
+<form class="" action='/reg_numbers' method="post">
+  <input type="text" name="regNumberInput" value="" class="regNumberInput" placeholder="enter the number here">
+  <input type="submit" name="add" value="add" class="addBtn">
+  <br/>
+  <br/>
+  <input type="radio" name="city" value="All">All |
+  <input type="radio" name="city" value="Bellville">Bellville |
+  <input type="radio" name="city" value="Paarl">Paarl |
+  <input type="radio" name="city" value="Stellenbosch">Stellenbosch |
+  <input type="radio" name="city" value="Cape Town">Cape Town
+  <br/>
+  <br/>
+  <!-- <input type="submit" name="filter" class="filterBtn" value="filter"> -->
+  <br>
+  <br>
+  <!-- <input type="text" name="plateToDelete" value="" class="regNumberInput" placeholder="remove plate...">
+  <input type="submit" name="delete" value="delete" class="filterBtn"> -->
+</form>
+<br/>
+<ul>
+  {{#each plate}}
+  <li class="plates" name="plates">{{this}}</li>
+  {{/each}}
+</ul>

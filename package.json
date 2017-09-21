@@ -1,0 +1,29 @@
+{
+  "name": "registration_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "thembeka",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "handlebars": "^4.0.10",
+    "mongoose": "^4.11.10"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thembekageorge/registration_app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/thembekageorge/registration_app/issues"
+  },
+  "homepage": "https://github.com/thembekageorge/registration_app#readme"
+}
