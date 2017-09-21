@@ -91,7 +91,6 @@ module.exports = function(app) {
   app.post('/reg_numbers', function(req, res, next) {
     var enteredPlate = req.body.regNumberInput;
     var add = req.body.add;
-    var filter = req.body.filter;
     var city = req.body.city;
 
 // When the user clicks on add button
@@ -115,7 +114,7 @@ module.exports = function(app) {
           plate: DatabasePlates
         });
       }
-    } else if (filter) {
+   } else if (filter) {
       if (city) {
         var getPlatesResults = getPlates(city);
         res.render('registration_numbers', {

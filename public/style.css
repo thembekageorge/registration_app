@@ -19,11 +19,20 @@ nav {
 }
 
 .container {
-  /*background-color: lightgrey;*/
   width: 50%;
   text-align: center;
-  /*border: 25px solid green;*/
   padding: 25px;
   margin: auto;
   text-align: center;
+}
+.plates {
+  height: 40px;
+  width: 200px;
+  margin-bottom: 5px;
+  border: 2px solid black;
+  background-color: gold;
+  font-size: 20px;
+  border-radius: 1em;
+  text-transform: uppercase;
+  list-style-type: none;
 }
