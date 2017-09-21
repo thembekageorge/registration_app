@@ -1,9 +1,29 @@
 body {
-  background-color: blue;
+  background-color: #f47142;
 }
-button {
+
+.addBtn, .regNumberInput {
   border: 1px solid black;
   border-radius: 0.2em;
-  font-size: 1.3em;
+  font-size: 1.2em;
   padding: 0.4em;
+}
+
+nav {
+  background-color: grey;
+  margin: 0;
+  margin-top: 0;
+  padding: 1.2em;
+  vertical-align: top;
+  text-align: center;
+}
+
+.container {
+  /*background-color: lightgrey;*/
+  width: 50%;
+  text-align: center;
+  /*border: 25px solid green;*/
+  padding: 25px;
+  margin: auto;
+  text-align: center;
 }
