@@ -15,7 +15,7 @@ This is how you can get the app on your machine
 
 Here's a few things you need to do :
 
- - On GitHub, navigate to the main page of the repository.
+- On GitHub, navigate to the main page of the repository.
 
 - Clone or download buttonUnder the repository name, click Clone or download.
 
@@ -24,3 +24,23 @@ Here's a few things you need to do :
 - Open Terminal.
 
 - Change the current working directory to the location where you want the cloned directory to be made.
+
+ - Type git clone, and then paste the URL you copied in Step 2.
+
+   like this  : git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+
+ - Press Enter. Your local clone will be created.
+
+## Installations
+
+To run an app, you have to make sure you have installed the necessary software or dependencies in order for the app to work satisfactorily
+
+- Open Terminal
+
+- Copy the file path from the app folder and on the Terminal, type cd path
+
+- This should have directed you to the registration app
+
+- run npm install (type npm install on the Terminal)
+
+- run sudo apt-get install -y nodejs , this will get you the latest version of nodejs  
