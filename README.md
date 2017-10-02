@@ -44,3 +44,13 @@ To run an app, you have to make sure you have installed the necessary software o
 - run npm install (type npm install on the Terminal)
 
 - run sudo apt-get install -y nodejs , this will get you the latest version of nodejs  
+
+## How to run the app
+
+To run the app
+
+type node appname (in this case it is index.js) so you will type in node index.js
+
+Enter a few registration number plates from different town (enter one at a time) and press the add button. After doing that , filter by slecting a town and pressing the show button.
+
+That is how the app runs. Should you have a problem , please send me and issue and I will be ready to help or fix whatever problem there is. 
