@@ -71,8 +71,6 @@ module.exports = function(app) {
         filteredPlates.push(curPlate);
       } else if (city === 'Bellville' && curPlate.startsWith('cy')) {
         filteredPlates.push(curPlate);
-      } else if (city === 'Paarl' && curPlate.startsWith('cj')) {
-        filteredPlates.push(curPlate);
       } else if (city === 'All') {
         filteredPlates = DatabasePlates;
       }
@@ -92,6 +90,7 @@ module.exports = function(app) {
     var enteredPlate = req.body.regNumberInput;
     var add = req.body.add;
     var city = req.body.city;
+    var filterr = req.body.filter;
 
 // When the user clicks on add button
     if (add) {
@@ -114,12 +113,16 @@ module.exports = function(app) {
           plate: DatabasePlates
         });
       }
-   } else if (filter) {
+   }
+// this is the filtering part
+    else if (filterr) {
       if (city) {
         var getPlatesResults = getPlates(city);
+        console.log(getPlatesResults);
         res.render('registration_numbers', {
           plate: getPlatesResults
         });
+        // console.log(plate: getPlatesResults);
       } else {
         res.render('registration_numbers', {
           plate: DatabasePlates

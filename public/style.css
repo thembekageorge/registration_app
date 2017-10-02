@@ -2,7 +2,7 @@ body {
   background-color: #f47142;
 }
 
-.addBtn, .regNumberInput {
+.addBtn, .regNumberInput,.filterBtn {
   border: 1px solid black;
   border-radius: 0.2em;
   font-size: 1.2em;
